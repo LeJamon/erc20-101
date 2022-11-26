@@ -15,7 +15,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.6.0;\n\n\ninterface IAllInOneSolution {\n\n function completeWorkshop() external;\n\n}\n",
-  "sourcePath": "/home/lejamon/Documents/GitHub/erc20101/contracts/IAllInOneSolution.sol",
+  "sourcePath": "/home/lejamon/blockchain_programming/erc20101/contracts/IAllInOneSolution.sol",
   "ast": {
     "absolutePath": "project:/contracts/IAllInOneSolution.sol",
     "exportedSymbols": {
@@ -191,7 +191,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-11-24T21:31:16.127Z",
+  "updatedAt": "2022-11-26T12:09:26.616Z",
   "devdoc": {
     "methods": {}
   },

@@ -268,7 +268,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.6.0;\nimport \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";\n\ninterface IExerciceSolution is IERC20\n{\n\n  function symbol() external view returns (string memory);\n    \n  function getToken() external returns (bool);\n\n  function buyToken() external payable returns (bool);\n\n  function isCustomerWhiteListed(address customerAddress) external returns (bool);\n\n  function customerTierLevel(address customerAddress) external returns (uint256);\n}\n",
-  "sourcePath": "/home/lejamon/Documents/GitHub/erc20101/contracts/IExerciceSolution.sol",
+  "sourcePath": "/home/lejamon/blockchain_programming/erc20101/contracts/IExerciceSolution.sol",
   "ast": {
     "absolutePath": "project:/contracts/IExerciceSolution.sol",
     "exportedSymbols": {
@@ -1172,7 +1172,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-11-24T21:31:16.128Z",
+  "updatedAt": "2022-11-26T12:09:26.617Z",
   "devdoc": {
     "methods": {
       "allowance(address,address)": {
