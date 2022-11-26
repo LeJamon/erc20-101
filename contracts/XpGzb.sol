@@ -44,36 +44,4 @@ contract XpGzb is IExerciceSolution, ERC20 {
     function customerTierLevel(address customerAddress) external  override returns (uint256){
         return TierListUser[customerAddress];
     }
-
-    /*function symbol() external view override returns (string memory){
-        return ("XpGzb");
-    }
-    
-
-    function getToken() external override return(bool){
-        _transfer(address(this),msg.sender,1000); // moins de gas fee 
-    }
-
-    function buyToken() public payable {
-        require(AllowedUser[msg.sender]!=0, "You are not whitelisted");
-        if(AllowedUser[msg.sender]==1){
-        _transfer(address(this),msg.sender,msg.value*10);
-        }
-        if(AllowedUser[msg.sender]==2){
-        _transfer(address(this),msg.sender,msg.value*20);
-        }
-    }
-    
-    function allowAddressTier1() public{
-        AllowedUser[msg.sender]=1; 
-    }
-
-    function allowAddressTier2() public{
-        AllowedUser[msg.sender]=2; 
-    }
-
-    /*function completeWorkshop(){
-        
-    }*/
-    
 }
