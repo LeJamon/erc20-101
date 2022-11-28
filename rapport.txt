@@ -1,0 +1,17 @@
+Version du compilateur : 
+J'ai passé la version en 0.6.2 car j'avais des problème de compilation
+sur IExerciceSolution. 
+
+Déplouiment du token sur testnet :
+Aucun soucis pour le déploiement.
+Si ce n'est pour valider l'exercice. J'ai du rappeler la fonction getticerks and supply. 
+J'ai mint l'initial supply à l'adresse du contrat dans le constructor, car cela me sembler plus logique dans le cadre d'une ICO.
+
+Pour la fonction getToken j'ai utilisé _transfer. 
+De meme pour buy token, à la différence que pour la valeur transferer, 
+au lieu de la hardcode je l'ai exprimé en fonction de la msg.value.
+
+Pour le reste, j'ai fait reposer le système de WhiteList et de TierList, 
+sur deux mapping. 
+Le premier basé sur l'adresse renvoyant un bool. 
+Et le second basé sur l'adresse et renvoyant un uint. 
