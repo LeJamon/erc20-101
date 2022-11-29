@@ -15,7 +15,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.6.0;\n\n\ninterface IAllInOneSolution {\n\n function completeWorkshop() external;\n\n}\n",
-  "sourcePath": "C:\\Users\\Thomas Hussenet\\Documents\\ESILV_A4\\bc_prog\\erc20101\\contracts\\IAllInOneSolution.sol",
+  "sourcePath": "/home/lejamon/Documents/GitHub/erc20101/contracts/IAllInOneSolution.sol",
   "ast": {
     "absolutePath": "project:/contracts/IAllInOneSolution.sol",
     "exportedSymbols": {
@@ -190,8 +190,8 @@
     "version": "0.6.2+commit.bacdbe57.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.11",
-  "updatedAt": "2022-11-26T14:06:45.250Z",
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-11-29T23:34:06.460Z",
   "devdoc": {
     "methods": {}
   },

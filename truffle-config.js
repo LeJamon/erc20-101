@@ -1,6 +1,8 @@
+require('dotenv').config();
+
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-var mnemonic = "lecture prize opinion squirrel maze bird type state furnace tornado puppy soldier"
-var infuraApiKey = "0360c67d49e744d7bba3ff9b77235595"
+var mnemonic = process.env.mnemonic
+var infuraApiKey = process.env.infuraApiKey
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
