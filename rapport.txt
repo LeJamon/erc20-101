@@ -15,3 +15,7 @@ Pour le reste, j'ai fait reposer le système de WhiteList et de TierList,
 sur deux mapping. 
 Le premier basé sur l'adresse renvoyant un bool. 
 Et le second basé sur l'adresse et renvoyant un uint. 
+
+Je me suis rendu compte à la fin du td que mes clefs étaient sur le truffle-config.
+Après avoir supprimer mon repo de github. 
+J'ai utilisé un .env que j'ai ajouté au gitignore pour les masquer. 
